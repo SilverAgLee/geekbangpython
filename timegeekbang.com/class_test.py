@@ -7,17 +7,28 @@
 # print_role(user1)
 
 
-class Player():    #定义一个类
+# class Player():    #定义一个类
+#     def __init__(self, name, hp, occu):
+#         self.__name = name  # 变量被称作属性
+#         self.hp = hp
+#         self.occu = occu
+#     def print_role(self):    #定义一个方法
+#         print('%s: %s %s' %(self.__name,self.hp,self.occu))
+#
+#     def updateName(self,newname):
+#         self.name = newname
+
+
+class Player():
     def __init__(self, name, hp, occu):
-        self.__name = name  # 变量被称作属性
+        self.__name = name
         self.hp = hp
         self.occu = occu
-    def print_role(self):    #定义一个方法
-        print('%s: %s %s' %(self.__name,self.hp,self.occu))
+    def print_role(self):
+        print('%s %s %s' %(self.__name, self.hp, self.occu))
 
-    def updateName(self,newname):
+    def updateName(self, newname):
         self.name = newname
-
 
 
 class Monster():

@@ -6,6 +6,3 @@ ratio = 8
 
 print(bandwidth/ratio)
 
-bandWidth
-BandWidth
-band_width

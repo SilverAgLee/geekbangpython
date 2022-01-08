@@ -97,6 +97,11 @@
 #
 # a=[1,2,3,4,5,6,7]
 # list(filter(lambda x:x>2 , a))
+
+a = [1,2,3,4,5,6,7]
+list(filter(lambda x:x>2,a))
+
+
 #
 # >>> help(filter)
 #
@@ -143,6 +148,10 @@
 # (2, 5)
 # (3, 6)
 
+dicta = {'a':'aa','b':'bb'}
+dictb = zip(dicta.values(),dicta.keys())
+print(dict(dictb))
+
 
 
 
@@ -175,6 +184,9 @@ def func():
    b = 2
    return a+b
 
+lambda a,b:a+b
+
+
 
 def sum(a):
     def add(b):
@@ -195,7 +207,7 @@ print( num2(4))
 # print(type(num2))
 #
 
-count()
+# count()
 
 
 

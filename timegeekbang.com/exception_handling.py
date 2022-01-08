@@ -35,13 +35,17 @@
 #     print('my custom error')
 
 
+# try:
+#     a = open('name.txt')
+# except Exception as e:
+#     print(e)
+#
+# finally:
+#     a.close()
+
 try:
-    a = open('name.txt')
-except Exception as e:
-    print(e)
-
-finally:
-    a.close()
-
+    year = int(input('input year'))
+except ValueError as e:
+    print('请输入数字：%s' %e)
 
 

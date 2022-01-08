@@ -16,3 +16,7 @@ print ( '狗'  not in chinese_zodiac )
 print (chinese_zodiac + 'abcd')
 
 print (chinese_zodiac * 3 )
+
+
+for cz in chinese_zodiac:
+    print(cz)
